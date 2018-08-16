@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/weather_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/weatherDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingLeft="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold"
+        android:text="Description"/>
+
+    <!--  <Button
+          android:id="@+id/button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="220dp"
+          android:layout_below="@+id/textView"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="-30dp"
+          android:onClick="getDescription"
+          android:text="Show weather Description" /> -->
+
+</LinearLayout>
