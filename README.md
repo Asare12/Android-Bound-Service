@@ -1,6 +1,6 @@
 
 # Description
-This App A just give me the latest weather description once I click on a button. The App B receives a message from App C which is the service and is received once its bound.
+App A just give me the latest weather description once I click on a button. The App B receives a message from App C which is the service and is received once its bound.
 # Functionality Implemented
 •	Used the onStart() and onStop to call the binding and unbinding in service
 
